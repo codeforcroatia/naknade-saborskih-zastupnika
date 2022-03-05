@@ -8,7 +8,11 @@ Uređeni podaci o zastupničkim naknadama (od 2012. godine, tj. početka 7. sazi
 > **Autor**: Filip Rodik
 
 Podaci o zastupničkim naknadama spojeni su s podacima o zastupnicima pojedinog saziva gdje je navedena i stranačka pripadnost zastupnika/ce.
-## 
+
+Power BI interaktivna [vizualizacija](https://app.powerbi.com/view?r=eyJrIjoiMzgxYjMxNTQtYWQ4NS00ZTE2LTg5N2ItMTA2NzQ2MTAyYzZlIiwidCI6IjkyNDIxZWUzLTAzNDgtNGUyNC04ODgwLTAxNzhkMmViNTI1ZiIsImMiOjh9) podataka.
+![image](https://user-images.githubusercontent.com/4228472/156898631-d2790637-1704-471b-8ed7-00642056ec2c.png)
+
+# Korištenje CSV-a 
 
 
 Primjer `R` skripte za učitavanje i analizu podataka:
