@@ -109,6 +109,14 @@ naknade %>%
 |SsIP                              |         NA|         NA|         NA|         NA|         NA|         NA|         NA|         NA|       0.00|       0.00|
 
 # Napomene
-Podaci za 2016. godinu i ranije dobiveni su OCR-anjem PDF datoteka. Osim toga, dio obrade podataka rađen je ručno u Excelu. Ukoliko uočite greške u podacima možete:
+Podaci za 2016. godinu i ranije dobiveni su OCR-anjem PDF datoteka. Dodatno, dio obrade podataka rađen je ručno u Excelu. 
+
+Ukoliko uočite greške u podacima možete:
 - otvoriti Issue u ovom repozitoriju s opisom problema
 - napraviti Pull request s ispravljenom verzijom CSV-a
+ 
+### Problemi:
+- Ako je zastupnik/ca izašao iz stranke tijekom saziva, sve naknade upisane su na stranku u kojoj je **završio** mandat. Npr. razdvajanje HNS-a na HNS i GLAS tijekom 9. saziva. Ovakve slučajeve treba detaljnije razraditi u CSV-u prema datumima dostupnim na stranicama Sabora.
+
+# Što dalje?
+- Podatke je moguće spojiti s informacijama iz imovinskih kartica, gdje su navedena prebivališta i privremene adrese zastupnika/ca. Na ovaj način može se ustanoviti koji zastupnici **neopravdano** koriste pojedine naknade (stanarine, odvojeni život, itd.).
